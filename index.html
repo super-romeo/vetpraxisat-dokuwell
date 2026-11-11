@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Für kleine Tierarztpraxen in Österreich: Befund, Behandlung und Medikamente dokumentieren und direkt mit der Rechnung abschließen.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Praxisblatt</a></div>
-  <nav class="top"><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Praxisblatt</a>
+  <nav><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Behandlung dokumentieren, Rechnung erstellen — in einem Schritt, beim Patienten</h1>
-    <p class="sub">Für Tierarztpraxen mit einem bis wenigen Tierärztinnen und Tierärzten: Tier und Halter anlegen, Anamnese, Befund, Behandlung und abgegebene Arzneimittel festhalten, und aus der Dokumentation entsteht die Rechnung mit allen Leistungen.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Das brauche ich</a>
-    <p class="cta-note">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Für kleine Tierarztpraxen in Österreich</p>
+      <h1 class="rise" style="--i:1" data-len="long">Behandlung dokumentieren, Rechnung erstellen&nbsp;<span class="soft">— in einem Schritt, beim Patienten</span></h1>
+      <p class="rise" style="--i:2">Für Tierarztpraxen mit einem bis wenigen Tierärztinnen und Tierärzten: Tier und Halter anlegen, Anamnese, Befund, Behandlung und abgegebene Arzneimittel festhalten, und aus der Dokumentation entsteht die Rechnung mit allen Leistungen.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Das brauche ich</a>
+      <p class="meta rise" style="--i:4">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="40" fill="#0a1524" font-weight="600">Behandlung</text><line x1="100" y1="196" x2="1100" y2="196" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="120" y="250" width="44" height="44" fill="#12397a" rx="8" /><text x="190" y="282" font-size="32" fill="#0a1524">Rechnung</text><rect x="120" y="380" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="190" y="412" font-size="32" fill="#0a1524">Patienten</text><rect x="120" y="510" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="190" y="542" font-size="32" fill="#0a1524">Arzneimittel</text><rect x="720" y="250" width="360" height="420" fill="#dfe8f7" rx="20" /><text x="750" y="318" font-size="34" fill="#0a1524" font-weight="600">Leistungen</text><rect x="760" y="420" width="50" height="200" fill="#12397a" rx="8" /><rect x="850" y="490" width="50" height="130" fill="#ffffff" rx="8" /><rect x="940" y="450" width="50" height="170" fill="#b9c3d2" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Für</dt><dd>Kleine Tierarztpraxen</dd></div>
+      <div><dt>Rechnung</dt><dd>Rechnung erstellen</dd></div>
+      <div><dt>Akte</dt><dd>Behandlung dokumentieren</dd></div>
+      <div><dt>Dienst</dt><dd>Dienst in Vorbereitung</dd></div>
+    </dl>
+  </section>
 
   <section id="was" data-view="features_view">
-    <h2>Was Sie bekommen</h2>
-    <div class="grid">
-      <div class="card"><b>Patientenakte</b><span>Tier, Halter, Vorgeschichte und alle Behandlungen an einem Ort.</span><br><a class="btn" href="price.html" data-ev="feature_patient">Das brauche ich</a></div>
-      <div class="card"><b>Dokumentation</b><span>Anamnese, Befund, Diagnose, Behandlung, Fotos und Befunde.</span><br><a class="btn" href="price.html" data-ev="feature_doku">Das brauche ich</a></div>
-      <div class="card"><b>Rechnung aus der Behandlung</b><span>Leistungen und Medikamente direkt in die Rechnung übernommen.</span><br><a class="btn" href="price.html" data-ev="feature_rechnung">Das brauche ich</a></div>
-      <div class="card"><b>Erinnerungen</b><span>Impf- und Kontrolltermine für Halter vorgemerkt.</span><br><a class="btn" href="price.html" data-ev="feature_erinnerung">Das brauche ich</a></div>
+    <div class="stack"><h2>Was Sie bekommen</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Patientenakte</text><rect x="120" y="200" width="420" height="28" fill="#dfe8f7" rx="8" /><rect x="120" y="270" width="300" height="28" fill="#dde2ea" rx="8" /><rect x="120" y="340" width="460" height="28" fill="#dde2ea" rx="8" /><rect x="120" y="410" width="240" height="28" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Patientenakte</h3><p>Tier, Halter, Vorgeschichte und alle Behandlungen an einem Ort.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_patient">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Befund</text><rect x="110" y="190" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,212 128,222 144,204" fill="none" stroke="#12397a" stroke-width="4" /><rect x="180" y="200" width="300" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="270" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,292 128,302 144,284" fill="none" stroke="#12397a" stroke-width="4" /><rect x="180" y="280" width="240" height="22" fill="#b9c3d2" rx="8" /><rect x="110" y="350" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="180" y="360" width="340" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="430" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="180" y="440" width="200" height="22" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Dokumentation</h3><p>Anamnese, Befund, Diagnose, Behandlung, Fotos und Befunde.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_doku">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Rechnung</text><rect x="120" y="200" width="360" height="26" fill="#dde2ea" rx="8" /><rect x="120" y="270" width="280" height="26" fill="#dde2ea" rx="8" /><rect x="120" y="340" width="400" height="26" fill="#dde2ea" rx="8" /><circle cx="560" cy="250" r="46" fill="#dfe8f7" /><polyline points="536,250 552,268 590,226" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Rechnung aus der Behandlung</h3><p>Leistungen und Medikamente direkt in die Rechnung übernommen.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rechnung">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Erinnerungen</text><rect x="120" y="200" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="250" y="200" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="380" y="200" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="510" y="200" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="300" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="250" y="300" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="380" y="300" width="100" height="70" fill="#12397a" rx="10" /><rect x="510" y="300" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="400" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="250" y="400" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="380" y="400" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="510" y="400" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Erinnerungen</h3><p>Impf- und Kontrolltermine für Halter vorgemerkt.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_erinnerung">Das brauche ich</a>
+      </article>
     </div>
   </section>
 
-  <section id="beispiel" data-view="example_view">
-    <h2>Beispiel (fiktive Daten)</h2>
-    <p class="fine">Kleintierpraxis mit einer Tierärztin und einer Assistentin. Ein Hund kommt mit Lahmheit: Anamnese, Befund, Röntgenbild und Schmerzmittel werden während der Untersuchung eingetragen. Beim Abschluss stehen Untersuchung, Röntgen und Medikament schon auf der Rechnung, und die Kontrolle in zwei Wochen ist vorgemerkt.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+  <section id="beispiel" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Beispiel</h2>
+      <p>Kleintierpraxis mit einer Tierärztin und einer Assistentin. Ein Hund kommt mit Lahmheit: Anamnese, Befund, Röntgenbild und Schmerzmittel werden während der Untersuchung eingetragen. Beim Abschluss stehen Untersuchung, Röntgen und Medikament schon auf der Rechnung, und die Kontrolle in zwei Wochen ist vorgemerkt.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Lahmheit</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Befund</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Medikament</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" fill="#0a1524" font-weight="600">Rechnung</text><rect x="170" y="470" width="64" height="64" fill="#12397a" rx="12" /><rect x="270" y="470" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="370" y="470" width="64" height="64" fill="#dde2ea" rx="12" /><rect x="470" y="470" width="64" height="64" fill="#b9c3d2" rx="12" /><text x="170" y="640" font-size="32" fill="#566174">Kontrolle</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>So funktioniert es</h2>
-    <p>In einer kleinen Tierarztpraxis wird jede Behandlung zweimal erfasst: einmal in der Dokumentation, einmal auf der Rechnung. Was in der Akte steht, muss am Empfang noch einmal als Leistung eingegeben werden, und was dabei vergessen wird, wird nicht verrechnet.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>So funktioniert es</h2></div>
+    <div class="stack">
+      <p>In einer kleinen Tierarztpraxis wird jede Behandlung zweimal erfasst: einmal in der Dokumentation, einmal auf der Rechnung. Was in der Akte steht, muss am Empfang noch einmal als Leistung eingegeben werden, und was dabei vergessen wird, wird nicht verrechnet.</p>
     <p>Viele kleine Praxen arbeiten mit einer Mischung aus Karteikarten, Tabellen und einem Rechnungsprogramm. Die Vorgeschichte eines Tieres ist schwer zu finden, abgegebene Medikamente werden nachträglich notiert, und am Monatsende fehlen Leistungen, die in der Akte stehen, auf keiner Rechnung.</p>
     <p>Die Software führt Dokumentation und Rechnung zusammen. Jedes Tier hat seine Patientenakte mit Halter, Art, Rasse, Alter, Gewicht, Vorerkrankungen und allen bisherigen Behandlungen. Beim nächsten Besuch ist alles auf einen Blick da.</p>
     <p>Während der Behandlung tragen Sie Anamnese, Befund, Diagnose und Behandlung ein, hängen Fotos, Röntgenbilder oder Laborbefunde an und vermerken abgegebene oder angewendete Arzneimittel. Häufige Eingaben lassen sich als Vorlage speichern und mit einem Klick übernehmen.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Kommt ein Tier zum ersten Mal, wird es mit dem Halter in einer Minute angelegt. Ältere Daten aus Tabellen lassen sich beim Start übernehmen, damit die Vorgeschichte der Stammpatienten nicht verloren geht. Auch Hausbesuche lassen sich vor Ort am Handy dokumentieren und abrechnen.</p>
     <p>Der Einstieg dauert einen Abend: Leistungsliste mit Preisen, häufige Medikamente, Vorlagen für typische Behandlungen. Die Software läuft im Browser am Computer, Tablet oder Handy, ohne Installation.</p>
     <p>Die Software ist für kleine Tierarztpraxen in Österreich gedacht. Sie ist in Vorbereitung: Wir prüfen zuerst, ob Praxen sie brauchen. Für Dokumentation, Arzneimittelnachweise und Rechnungen bleibt die Praxis verantwortlich.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Häufige Fragen</h2>
-    <h3>Für wen ist die Software?</h3>
-    <p>Für kleine Tierarztpraxen in Österreich mit einer bis wenigen Tierärztinnen und Tierärzten.</p>
-    <h3>Muss ich Leistungen doppelt eingeben?</h3>
-    <p>Nein. Was Sie in der Behandlung dokumentieren, wird direkt in die Rechnung übernommen.</p>
-    <h3>Kann ich Röntgenbilder und Befunde anhängen?</h3>
-    <p>Ja, Fotos, Röntgenbilder und Laborbefunde werden beim Patienten gespeichert.</p>
-    <h3>Muss ich etwas installieren?</h3>
-    <p>Nein, die Software läuft im Browser am Computer, Tablet oder Handy.</p>
-    <h3>Kann ich sie schon nutzen?</h3>
-    <p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Praxen sie brauchen.</p>
+    <div class="stack"><h2>Häufige Fragen</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Für wen ist die Software?</h3><p>Für kleine Tierarztpraxen in Österreich mit einer bis wenigen Tierärztinnen und Tierärzten.</p></div>
+      <div class="split flip"><h3>Muss ich Leistungen doppelt eingeben?</h3><p>Nein. Was Sie in der Behandlung dokumentieren, wird direkt in die Rechnung übernommen.</p></div>
+      <div class="split flip"><h3>Kann ich Röntgenbilder und Befunde anhängen?</h3><p>Ja, Fotos, Röntgenbilder und Laborbefunde werden beim Patienten gespeichert.</p></div>
+      <div class="split flip"><h3>Muss ich etwas installieren?</h3><p>Nein, die Software läuft im Browser am Computer, Tablet oder Handy.</p></div>
+      <div class="split flip"><h3>Kann ich sie schon nutzen?</h3><p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Praxen sie brauchen.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Legen Sie Ihre Praxis an</h2>
-    <p><label>Tierärztinnen und Tierärzte in der Praxis<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— bitte wählen —</option><option>1</option><option>2–3</option><option>4–6</option><option>Mehr als 6</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Starten</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Legen Sie Ihre Praxis an</h2>
+    </div>
+    <div class="tile stack">
+      <label>Tierärztinnen und Tierärzte in der Praxis<select data-ev-focus="form_start"><option value="">— bitte wählen —</option><option>1</option><option>2–3</option><option>4–6</option><option>Mehr als 6</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Starten</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Praxisblatt</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Datenschutz</a></p>
-  <p class="muted">Software für die Dokumentation und Rechnungen Ihrer Praxis. Verantwortlich für Dokumentation und Rechnungen bleibt die Praxis.</p>
+  <p>Software für die Dokumentation und Rechnungen Ihrer Praxis. Verantwortlich für Dokumentation und Rechnungen bleibt die Praxis.</p>
 </div></footer>
 
 </body>
